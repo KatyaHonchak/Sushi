@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Sushi</title>
     <style>
         th,tr,table,td{border: 1px solid black;}
@@ -11,48 +12,67 @@
     </style>
 </head>
 <body>
-    <ol>
-        <li>Сет драконів</li>
-        <li>Сет Макі</li>
-        <li>Сет Футомаків</li>
-        <li>Сет Філадельфія</li>
-    </ol>
-    <table>
-        <caption>Меню</caption>
-        <thead>
-            <tr>
-                <th>Назва</th>
-                <th>Вага</th>
-                <th>Ціна</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>Сет драконів</td>
-            <td>1375г</td>
-            <td>817 грн</td>
-        </tr>
-        <tr>
-            <td>Сет Макі</td>
-            <td>705г</td>
-            <td>345 грн</td>
-        </tr>
-        <tr>
-            <td>Сет Футомаків</td>
-            <td>1170г</td>
-            <td>484 грн</td>
-        </tr>
-        <tr>
-            <td>Сет Філадельфія</td>
-            <td>1100г</td>
-            <td>550 грн</td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <img src="./xBez-nazvy-2_Montazhna-oblast-1-kopiya-10.png.pagespeed.ic.7GA984bwrn.png" alt="Сет суші">
-    <br>
-    <br>
-    <video src="./Sushi Video.mp4" controls>        
+    <div class = "header">
+        <nav>
+            <ul>
+            <li><a href="index.html">На головну</a></li>
+            <li><a href="about.html">Про сайт</a></li>
+            <li><a href="links.html">Карта сайту</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li>Сет драконів</li>
+                <li>Сет Макі</li>
+                <li>Сет Футомаків</li>
+                <li>Сет Філадельфія</li>
+            </ol>
+        </div>
+        <div class="content">
+            <table>
+                <caption>Меню</caption>
+                <thead>
+                    <tr>
+                        <th>Назва</th>
+                        <th>Вага</th>
+                        <th>Ціна</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Сет драконів</td>
+                    <td>1375г</td>
+                    <td>817 грн</td>
+                </tr>
+                <tr>
+                    <td>Сет Макі</td>
+                    <td>705г</td>
+                    <td>345 грн</td>
+                </tr>
+                <tr>
+                    <td>Сет Футомаків</td>
+                    <td>1170г</td>
+                    <td>484 грн</td>
+                </tr>
+                <tr>
+                    <td>Сет Філадельфія</td>
+                    <td>1100г</td>
+                    <td>550 грн</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <img src="./xBez-nazvy-2_Montazhna-oblast-1-kopiya-10.png.pagespeed.ic.7GA984bwrn.png" alt="Сет суші">
+            <br>
+            <br>
+            <video src="./Sushi Video.mp4" controls>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2023 Sushi Restaurant. Усі права захищені.</p>
+    </div>
+
 
 </body>
 </html>

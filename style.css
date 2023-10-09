@@ -1,0 +1,49 @@
+/* Стилізація верхнього колонтитулу */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стилізація контейнера і його дітей */
+.container {
+    display: flex;
+}
+
+/* Стилізація бокової колонки */
+.sidebar {
+    width: 20%;
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+}
+
+/* Стилізація основного вмісту */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Стилізація нижнього колонтитулу */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+th,tr,table,td{
+    border: 1px solid black;
+}
+
+img, video{
+    max-width: 500px;
+}
+
+*{
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
